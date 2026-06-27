@@ -44,8 +44,11 @@ Goals:
 Goals:
 
 - Create synthetic demo data
+- Create public-safe synthetic decision records
+- Create public-safe execution report examples
 - Build public-safe screenshots
 - Show the cockpit without exposing private notes
+- Add mock cockpit screenshots after the four portfolio repositories are complete
 - Prepare a short portfolio walkthrough
 
 ## Stage 5: Enterprise Knowledge Management Adaptation

@@ -61,23 +61,32 @@ Not Included Publicly:
 - Private prompts
 - Full local second brain contents
 
+## Implementation Snapshot
+
+A private local version of Super Brain 2.0 exists, but this repository does not expose its private contents. This public repository documents the portfolio-safe architecture, governance logic, workflow design, and synthetic examples.
+
+The system has been used as a personal project-memory and AI-assisted workflow structure for managing AI projects, application materials, methodology notes, and project reviews. Private execution reports, sensitive project notes, trading-related materials, and personal records are intentionally excluded.
+
 ## Repository Structure
 
 ```text
 super-brain-2/
-├── README.md
-├── docs/
-│   ├── project-overview.md
-│   ├── system-architecture.md
-│   ├── workflow.md
-│   ├── methodology-router.md
-│   ├── knowledge-governance.md
-│   ├── sample-structure.md
-│   ├── evaluation-rubric.md
-│   ├── product-roadmap.md
-│   └── sutd-fit.md
-└── assets/
-    └── README.md
+|-- README.md
+|-- docs/
+|   |-- project-overview.md
+|   |-- system-architecture.md
+|   |-- workflow.md
+|   |-- methodology-router.md
+|   |-- knowledge-governance.md
+|   |-- sample-structure.md
+|   |-- sample-decision-record.md
+|   |-- sample-execution-report.md
+|   |-- sample-methodology-routing-case.md
+|   |-- evaluation-rubric.md
+|   |-- product-roadmap.md
+|   `-- sutd-fit.md
+`-- assets/
+    `-- README.md
 ```
 
 - `docs/project-overview.md`: problem, users, AI value, human review, role, and portfolio boundary.
@@ -86,6 +95,9 @@ super-brain-2/
 - `docs/methodology-router.md`: routing concept and synthetic examples.
 - `docs/knowledge-governance.md`: public/private boundaries and responsible knowledge practices.
 - `docs/sample-structure.md`: simplified synthetic second-brain structure for demonstration.
+- `docs/sample-decision-record.md`: synthetic decision record showing how decisions are captured and reviewed.
+- `docs/sample-execution-report.md`: synthetic execution report showing how project work is written back.
+- `docs/sample-methodology-routing-case.md`: synthetic routing case showing methodology selection.
 - `docs/evaluation-rubric.md`: criteria for evaluating system quality.
 - `docs/product-roadmap.md`: staged development path.
 - `docs/sutd-fit.md`: connection to SUTD DAI-E.
